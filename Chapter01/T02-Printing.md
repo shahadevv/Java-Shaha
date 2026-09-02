@@ -1,6 +1,4 @@
-Date: 22/08/2026
-PRINTING
-
+# PRINTING | 22Aug2026 | 11:00 am
 
 Below the name of the program is T02-Printing. This name has to correspond to the name of the file that contains the source code (e.g. T02-Printing.java).
 

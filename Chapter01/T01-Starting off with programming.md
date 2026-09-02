@@ -1,6 +1,4 @@
-
-Date: 22/08/2026
-Starting off with PROGRAMMING
+# Starting off with PROGRAMMING | 22Aug2026 |🕢 7:30 pm
 
 **COMMENTS**: which is ignored by the compiler.
 

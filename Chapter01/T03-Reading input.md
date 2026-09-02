@@ -1,7 +1,5 @@
-Date: 24/08/2026
-Reading Input  
+# Reading Input | 24Aug2026 | 2:17 pm  
   
-
 ```java
 //1.import the scanner to read input from user
 import java.util.Scanner;
