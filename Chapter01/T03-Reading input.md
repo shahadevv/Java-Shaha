@@ -3,21 +3,15 @@
 ```java
 //1.import the scanner to read input from user
 import java.util.Scanner;
-
 public class T03-Reading input {
-
 	public static void main(String[] args) {
-
 		//2.create a tool and name it scanner
-		Scanner scanner = new Scanner(System.in);
-		
+		Scanner scanner = new Scanner(System.in);		
 		//3.print a command on the users screen for response
 		System.out.println("Write a message: ");
-
 //read the string written by the user, and assign it
 // execution pauses at nextLine() until the user presses Enter
 		String message = scanner.nextLine();
-
 		// print the users input
 		System.out.println(message);
 
@@ -26,7 +20,7 @@ public class T03-Reading input {
 ```
 
 ### FUNDAMENTAL OF STRINGS:
-in programming instead of "text" we call it "strings" which is a shorthand for 'String of charactes' which is seen by computer as a sequence of individual characters. 
+in programming instead of "text" we call it **strings**, which is a shorthand for 'String of charactes' which is seen by computer as a sequence of individual characters. 
 
 **Variables** are named containers that contain info of some specified type and have a name. Typically a variable is assigned a value during its declaration. A value saved to a variable can be used repeatedly.
 ```java
@@ -38,8 +32,7 @@ System.out.println("msg"); //wrong: prints "msg", this is called a string litera
 Form multiple string literal and string variable using the + operator. We can do the below with any number of strings.
 
 ```java
-public class main{
-	
+public class main{	
 	public static void main(String[] args) {
 		String msg1 = "I am ";
 		
@@ -47,12 +40,11 @@ public class main{
 	}
 }
 ```
+
 **Task**:Write a program that asks the user to write a string. When the user has given a string (that is, written some text and pressed enter), the program must print the user's string three times (you can use the `System.out.println` command multiple times).
 ```java
 import java.util.Scanner;
-
 public class main{
-
 	public static void main(String[] args){
 		Scanner scanner = new Scanner(System.in);
 		
@@ -63,8 +55,7 @@ public class main{
 		System.out.println(msg);
 		System.out.println(msg);
 	
-	}
-	
+	}	
 }
 ```
 For multiple string variable they must have different names(e,g. first, second, third)
@@ -72,9 +63,7 @@ For multiple string variable they must have different names(e,g. first, second, 
 We can form more complicated text using these types. Shown below;
 ```java
 import java.util.Scanner;
-
 public class Program {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -93,3 +82,4 @@ public class Program {
     }
 }
 ```
+---

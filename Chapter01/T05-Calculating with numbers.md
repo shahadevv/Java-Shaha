@@ -32,13 +32,12 @@ public class main{
 }
 ```
 ## Calculating and Printing
-
 ```java
 System.out.println("here is an integer --> " + 2); //op; here is an integer —> 2
 System.out.println("Four: " + (2 + 2)); // op; Four: 4
 ```
 
-Task: Sum of three numbers
+**Task**: Sum of three numbers
 ```java
 import java.util.Scanner;
 public class Shaha{

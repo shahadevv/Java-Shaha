@@ -10,22 +10,18 @@ public class T02-Printing {
 		System.out.println("What u type here gets printed");
 		System.out.println("This is another line"); 
 ```
-Execution of the program starts from public static void main(string[] args) {, and ends at the closing curly bracket }.
-Commands are executed one line at a time. Terms public class and public static void will be explained later.
+- Execution of the program starts from **public static void main(string[] args) {** , and ends at the closing curly bracket **}** .
+- Commands are executed one line at a time.
+- public class and public static void, these terms will be explained later so don't worry bout them for now.
 
-
-Task: Print "Once upon a time there was a king" in 3 different lines.
+**Task**: Print "Once upon a time there was a king" in 3 different lines.
 ```java
 public class tp02;
-
 	public static void main(String[] args) {
-
 		System.out.println("Once Upon a time");
 		System.out.println("There was");
 		System.out.println("A King");
-
 	}
-
 }
 ```
-{;} SemicolonSeparates Commands: u can write multi commands in a single line but it would look messy. So it is better to write in different lines.
+ **;** Semicolon Separates Commands: u can write multiple commands in a single line but it would look messy. So it is better to write in different lines.

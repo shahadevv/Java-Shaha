@@ -3,7 +3,6 @@
 A variable is like a container where information of a given type can be stored. E,g. types: 
 ```java
 public class main{
-	
 	public static void main(String[] args){
 		//variable names are unique
 		String text = "contains text";
@@ -16,13 +15,11 @@ public class main{
 		System.out.println("Integer variable: " + wholeNumber);
 		System.out.println("Floating-point variable: " + floatingPoint);
 		System.out.println("Boolean: " + trueOrFalse);
-	}
-	
+	}	
 }		
 ```
 
 ## Changing a value assigned to a variable
-
 In Java, you state the data type only **once** when declaring a variable. Its initial value is preserved until another value is assigned to it.
 ```java
 public class main{
@@ -114,5 +111,5 @@ public class Program {
 
 //_Note: For reading Int; If a user enters a non-numerical value (like text), the program will break because it doesn't know how to convert it to a number. For reading Boolean; To get the boolean value of true, the user must type the string "true" (this is case-insensitive, so "TRUE" "TRue" also work). Any other string input by the user will be converted to false.
 ```
-
+---
 
